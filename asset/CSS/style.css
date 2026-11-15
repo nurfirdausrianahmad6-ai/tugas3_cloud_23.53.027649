@@ -84,3 +84,57 @@ footer {
         min-height: auto;
     }
 }
+
+/* PEMBARUAN WEBSITE VERSI 2 */
+
+.v2-section {
+    background-color: #eef5ff;
+}
+
+.v2-section h2 {
+    letter-spacing: 0.5px;
+}
+
+.v2-card {
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.v2-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+.v2-card .display-3 {
+    margin-bottom: 10px;
+}
+
+.v2-card p {
+    line-height: 1.7;
+}
+
+.v2-info {
+    background: linear-gradient(135deg, #123b70, #2879b9);
+    color: white;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.v2-info p {
+    line-height: 1.8;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .v2-section {
+        padding: 35px 0;
+    }
+
+    .v2-info {
+        padding: 25px !important;
+    }
+}
